@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <header>
+        <nav>
+            <div class="logo">CS Undergrad | Web Developer | Problem Solver.</div>
+            <ul class="nav-links">
+                <!-- <li><a href="#home">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section-animate fade-in-up">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Moksh Chugh.</span></h1>
+            <h2>Turning ideas into interactive experiences. I'm a CS undergrad who codes for creativity, functionality, and impact.</h2>
+            <p></p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about section-animate slide-in-left">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I specialize in full-stack web development, building responsive and intuitive user interfaces backed by efficient, scalable code.
+                    Proficient in JavaScript, Python, and C++, I enjoy solving real-world problems with clean and maintainable solutions.
+                    My projects reflect a balance between design and logic, where performance meets user experience.
+                    I love collaborating, learning new technologies, and bringing ideas to life through code.
+                    Currently exploring backend systems, API development, and cloud-based architectures.
+                    Always down for a new challenge — let's build something great.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Git</span>
+                        <span>MongoDB</span>
+                        <span>MySQL</span>
+                        <span>Express.js</span>
+                        <span>REST APIs</span>
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-animate slide-in-right">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="assets\Buggy_Game.png" alt="Buggy Game">
+                <h3>Buggy Game</h3>
+                <p>A fun and simple desktop game made using HTML, CSS and Node.js</p>
+                <br>
+                <a href="https://buggy-game.onrender.com" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of project 2</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Description of project 3</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-animate fade-in-up">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" action="https://formspree.io/f/mwplanbj" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Moksh Chugh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
